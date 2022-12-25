@@ -1,0 +1,26 @@
+@import './colors.scss';
+@import './classes.scss';
+
+nav{
+    margin-bottom: 80px;
+.nav-item {
+    margin: 17px;
+
+    .btnLogin {
+        @extend .btnLogin;
+        padding: 6px 36px !important;
+    }
+
+    .btnLogin:hover {
+        color: #fff;
+        background-color: $mainColor;
+        transition: 0.5s;
+    }
+
+    .btnRegister {
+        @extend .btnReg;
+        padding: 6px 36px !important;
+    }
+
+}
+}

@@ -1,0 +1,230 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #7D7987;
+}
+
+.btnLogin, nav .nav-item .btnLogin {
+  border: 1px solid #FB8F1D;
+  color: #FB8F1D;
+  border-radius: 8px;
+}
+
+.btnReg, .exploreSection .btnExplore, nav .nav-item .btnRegister {
+  background-color: #FB8F1D;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+nav {
+  margin-bottom: 80px;
+}
+nav .nav-item {
+  margin: 17px;
+}
+nav .nav-item .btnLogin {
+  padding: 6px 36px !important;
+}
+nav .nav-item .btnLogin:hover {
+  color: #fff;
+  background-color: #FB8F1D;
+  transition: 0.5s;
+}
+nav .nav-item .btnRegister {
+  padding: 6px 36px !important;
+}
+
+.btnLogin, nav .nav-item .btnLogin {
+  border: 1px solid #FB8F1D;
+  color: #FB8F1D;
+  border-radius: 8px;
+}
+
+.btnReg, .exploreSection .btnExplore, nav .nav-item .btnRegister {
+  background-color: #FB8F1D;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.exploreSection {
+  margin-bottom: 286px;
+}
+.exploreSection .exploreLeft h2,
+.exploreSection .exploreLeft h4 {
+  line-height: 80px;
+}
+.exploreSection .exploreLeft .exploreUnderLine {
+  border-bottom: 2px solid black;
+  width: 32px;
+}
+.exploreSection .exploreLeft .dropdown {
+  margin-top: 35px;
+  border: 0.8px solid #AFB0B9;
+  border-radius: 6px;
+}
+.exploreSection .exploreLeft .dropdown .dropdown-toggle,
+.exploreSection .exploreLeft .dropdown .dropdown-menu .dropdown-item {
+  color: #4A4C53;
+}
+.exploreSection .exploreLeft .dropdown .dropdown-toggle {
+  width: 100%;
+  border: 0;
+}
+.exploreSection .exploreLeft .dropdown .dropdown-menu {
+  width: 100%;
+  text-align: center;
+}
+.exploreSection .exploreLeft .exploreContainer {
+  margin-bottom: 51px;
+}
+.exploreSection .btnExplore {
+  padding: 15px 60px;
+}
+
+.newWayRight {
+  width: 450px;
+}
+.newWayRight p {
+  font-size: 17px;
+}
+.newWayRight h2 {
+  line-height: 50px;
+}
+.newWayRight p {
+  line-height: 30px;
+  margin-bottom: 39px;
+}
+
+.featuredSection {
+  margin-bottom: 231px;
+}
+.featuredSection .featuredSectionHero {
+  margin-bottom: 56px;
+}
+.featuredSection figure {
+  position: relative;
+  padding: 0;
+}
+.featuredSection figure .featuredSectionContent {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: white;
+  width: 60%;
+  border-radius: 0px 6px 0px 0px;
+}
+.featuredSection a {
+  color: #FB8F1D;
+}
+
+.testimonialsSection .Testimonials h2 {
+  margin-bottom: 145px;
+  font-size: 36px;
+}
+.testimonialsSection .Testimonials .containerTestimonials i {
+  font-size: large;
+  color: #FFBB0C;
+  margin-bottom: 30.5px;
+  margin-right: 15.88px;
+}
+.testimonialsSection .Testimonials h4 {
+  font-size: 22px;
+  line-height: 48px;
+}
+.testimonialsSection .Testimonials p {
+  line-height: 36px;
+}
+.testimonialsSection .Testimonials p:last-child {
+  line-height: 48px;
+}
+.testimonialsSection figure {
+  position: relative;
+}
+.testimonialsSection figure img {
+  height: 100%;
+}
+.testimonialsSection figure .arrowTestimonials {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+}
+@media (min-width: 540px) and (max-width: 1436px) {
+  .testimonialsSection figure .arrowTestimonials {
+    width: 50%;
+  }
+}
+@media (max-width: 539px) {
+  .testimonialsSection figure .arrowTestimonials {
+    width: 90%;
+  }
+}
+.testimonialsSection figure .arrowTestimonials .arrowTestimonialsRight {
+  border: 1px solid black;
+  padding: 2px 8px;
+  border-radius: 50%;
+}
+.testimonialsSection figure .arrowTestimonials .arrowTestimonialsRight a {
+  color: black;
+}
+.testimonialsSection figure .arrowTestimonials .arrowTestimonialsLeft {
+  border: 1px solid #D7D7D7;
+  padding: 2px 8px;
+  border-radius: 50%;
+}
+.testimonialsSection figure .arrowTestimonials .arrowTestimonialsLeft a {
+  color: #D7D7D7;
+}
+
+.testimonialsSection {
+  margin-bottom: 271px;
+}
+
+.featuredSection .trendingCard {
+  width: 284px;
+  border: none;
+}
+.featuredSection .trendingCard .card {
+  border: none;
+}
+.featuredSection .trendingCard .card .card-body {
+  padding-left: 0px;
+}
+
+footer {
+  margin-bottom: 33px;
+  background-color: #F9F9FB;
+  padding-top: 70px;
+}
+footer .container .footerHero {
+  padding-bottom: 81px;
+}
+footer .container .footerHero h3 {
+  line-height: 60px;
+}
+footer .container .footerHero p {
+  line-height: 38px;
+}
+footer .container .footerHero .footerHero1 p {
+  width: 391px;
+  line-height: 28px;
+}
+footer .container .footerIcons a {
+  margin-top: 32.4px;
+  margin-right: 35px;
+  font-size: larger;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

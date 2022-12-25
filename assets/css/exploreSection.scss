@@ -1,0 +1,48 @@
+@import './colors.scss';
+@import './classes.scss';
+
+.exploreSection {
+    margin-bottom: 286px;
+    .exploreLeft {
+
+        h2,
+        h4 {
+            line-height: 80px;
+        }
+
+        .exploreUnderLine {
+            border-bottom: 2px solid black;
+            width: 32px;
+        }
+
+        .dropdown {
+            margin-top: 35px;
+            border: 0.8px solid $borderColor;
+            border-radius: 6px;
+
+            .dropdown-toggle,
+            .dropdown-menu .dropdown-item {
+                color: $insideDrop;
+            }
+
+            .dropdown-toggle {
+                width: 100%;
+                border: 0;
+            }
+
+            .dropdown-menu {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        .exploreContainer {
+            margin-bottom: 51px;
+        }
+    }
+
+    .btnExplore {
+        @extend .btnReg;
+        padding: 15px 60px;
+    }
+}

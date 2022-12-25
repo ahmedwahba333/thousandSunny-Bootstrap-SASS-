@@ -1,0 +1,37 @@
+@import './colors.scss';
+
+footer {
+    margin-bottom: 33px;
+    background-color: $footerBackgroundColor;
+    padding-top: 70px;
+
+    .container {
+        .footerHero {
+            h3 {
+                line-height: 60px;
+            }
+
+            p {
+                line-height: 38px;
+            }
+
+            .footerHero1 {
+                p {
+                    width: 391px;
+                    line-height: 28px;
+                }
+
+            }
+            padding-bottom: 81px;
+        }
+
+        .footerIcons {
+            a {
+                margin-top: 32.4px;
+                margin-right: 35px;
+                font-size: larger;
+                color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@import './colors.scss';
+
+.testimonialsSection {
+    margin-bottom: 271px;
+}
+
+.featuredSection {
+    .trendingCard {
+        width: 284px;
+        border: none;
+        .card {
+                border: none;
+                .card-body{
+                    padding-left: 0px;
+                }
+        }
+    }
+}
